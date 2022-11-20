@@ -1,0 +1,40 @@
+site_name: Muntii-Fagarasのドキュメント
+site_description: Muntii-Fagarasのドキュメントリポジトリです。
+site_author: Muntii-Fagarasチーム
+site_url: https://Muntii-Fagaras.github.io/
+
+repo_url: https://github.com/Muntii-Fagaras/Muntii-Fagaras.github.io
+repo_name: Muntii-Fagaras/Muntii-Fagaras.github.io
+
+docs_dir: 'docs'
+
+theme: 
+  name: 'material'
+  custom_dir: docs/overrides
+  palette:
+    primary: blue
+    scheme: slate
+    accent: cyan
+  language: ja
+  features:
+    - content.code.annotate 
+    - codehilite
+    - navigation.expand
+    - navigation.instant
+  icon:
+    repo: fontawesome/brands/github 
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+      
+nav:
+  - このプロジェクトについて: README.md
+  - このサイトについて: このサイトについて.md
+plugins:
+  - git-revision-date
+  - git-authors
+  
