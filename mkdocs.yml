@@ -35,8 +35,8 @@ nav:
   - このプロジェクトについて: README.md
   - このプロジェクトのビルド方法について: CONTRIBUTING.md
   - 1. ソースコードについて:
-    - 1.1. imageクラスについて: description/image.md
-    - 1.2 load_fileくらすについて: description/load_file.md
+    - 1.1. imageについて: description/image.md
+    - 1.2 load_fileについて: description/load_file.md
   - このサイトについて: このサイトについて.md
 plugins:
   - git-revision-date
