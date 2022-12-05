@@ -9,7 +9,7 @@ repo_name: Muntii-Fagaras/Muntii-Fagaras.github.io
 docs_dir: 'docs'
 
 theme: 
-  logo: fontawesome/solid/mountain-sun
+  logo: material/city
   name: 'material'
   custom_dir: docs/overrides
   palette:
@@ -56,4 +56,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-
+extra:
+  version:
+    provider: mike
