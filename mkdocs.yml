@@ -9,6 +9,7 @@ repo_name: Muntii-Fagaras/Muntii-Fagaras.github.io
 docs_dir: 'docs'
 
 theme: 
+  logo: fontawesome/solid/mountain-sun
   name: 'material'
   custom_dir: docs/overrides
   palette:
@@ -21,6 +22,12 @@ theme:
     - codehilite
     - navigation.expand
     - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
   icon:
     repo: fontawesome/brands/github 
 markdown_extensions:
@@ -41,6 +48,9 @@ nav:
 plugins:
   - git-revision-date
   - git-authors
+  - tags
+  - search:
+      lang: ja
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
