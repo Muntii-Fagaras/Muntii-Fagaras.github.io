@@ -9,7 +9,6 @@ repo_name: Muntii-Fagaras/Muntii-Fagaras.github.io
 docs_dir: 'docs'
 
 theme: 
-  logo: material/city
   name: 'material'
   custom_dir: docs/overrides
   palette:
