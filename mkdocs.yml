@@ -52,6 +52,11 @@ plugins:
       lang: ja
 markdown_extensions:
   - attr_list
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      auto_title: true
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
