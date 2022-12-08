@@ -40,17 +40,17 @@ markdown_extensions:
 nav:
   - このプロジェクトについて: README.md
   - 取扱説明書:
-    - 1. インストール方法
-      -1.1 WindowsでMuntii-Fagarasを実行する方法 : instructionhow_to_run_windows/main.md
-      -1.2 KubuntuでMuntii-Fagarasを実行する方法
-      -1.3 React OSでMuntii-Fagarasを実行する方法
-    - 2. プログラムの使い方
+  - 1. インストール方法:
+    - 1.1. WindowsでMuntii-Fagarasを実行する方法: instruction/how_to_run_windows/main.md
+    - 1.2. KubuntuでMuntii-Fagarasを実行する方法
+    - 1.3. React OSでMuntii-Fagarasを実行する方法
+    - 2. プログラムの使い方:
       - メイン画面の操作方法 : instruction/manual/main.md
       - 設定画面の操作方法
   - このプロジェクトのビルド方法について: CONTRIBUTING.md
-  - 1. ソースコードについて:
-    - 1.1. imageについて: description/image.md
-    - 1.2. load_fileについて: description/load_file.md
+  - 2. ソースコードについて:
+    - 2.1. imageについて: description/image.md
+    - 2.2. load_fileについて: description/load_file.md
   - このサイトについて: このサイトについて.md
 plugins:
   - git-revision-date
