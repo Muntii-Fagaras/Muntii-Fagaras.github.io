@@ -1,9 +1,11 @@
 ﻿# imageクラス
+
 ## メソッド
 
 ### loadメソッド
 
 #### ソースコード
+
 ```cpp
 void image::load(std::string image_path, SDL_Renderer* renderer, int x, int y){
 }

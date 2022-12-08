@@ -63,6 +63,7 @@ meson compile -C builddir
 ### Windows 11編
 
 #### Meson編
+
 1. Mesonとninjaを
 
 ```shell
@@ -84,6 +85,7 @@ meson setup --backend vs builddir
 #### Visual Studio編
 
 本プロジェクトは、Visual Studio 2022を採用しています。
+
 1. まずは、本プロジェクトをGithubからクローンします。
 
 ```shell
@@ -93,11 +95,13 @@ git clone https://github.com/312k/gui-base.git
 2. クローンしたら、srcディレクトリに移動します。
 3. srcディレクトリ内の**src.sln**をダブルクリックします。
 4. 起動したら、CTRL+F5でデバッグなしで実行できます。
+
 ## clang-formatの方法
 
 ```shell
-$ clang-format *.cpp *.hpp *.h class/*.cpp class/*.hpp
+clang-format *.cpp *.hpp *.h class/*.cpp class/*.hpp
 ```
+
 ## このプロジェクトのソースコードの解説
 
 ### クラスについて
@@ -105,7 +109,9 @@ $ clang-format *.cpp *.hpp *.h class/*.cpp class/*.hpp
 クラスの使用方法については、class_desc内のファイルをご覧ください。
 
 #### Visual Studio Code編
+
 本プロジェクトは、Visual Studio Codeを使ってもビルドができます。  
+
 1. msys2からgccとmakeをインストールする。
 　　本プロジェクトではgccとmakeを使います。
 2. src直下をVisual Studio Codeのプロジェクトに追加してください。  
