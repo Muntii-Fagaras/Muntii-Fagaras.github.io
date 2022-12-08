@@ -21,6 +21,12 @@ theme:
     - codehilite
     - navigation.expand
     - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
   icon:
     repo: fontawesome/brands/github 
 markdown_extensions:
@@ -42,11 +48,26 @@ nav:
       - メイン画面の操作方法 : instruction/manual/main.md
       - 設定画面の操作方法
   - このプロジェクトのビルド方法について: CONTRIBUTING.md
-    - 1. ソースコードについて:
-    - 1.1. imageクラスについて: description/image.md
-    - 1.2 load_fileくらすについて: description/load_file.md
+  - 1. ソースコードについて:
+    - 1.1. imageについて: description/image.md
+    - 1.2. load_fileについて: description/load_file.md
   - このサイトについて: このサイトについて.md
 plugins:
   - git-revision-date
   - git-authors
-  
+  - tags
+  - search:
+      lang: ja
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      auto_title: true
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  version:
+    provider: mike
