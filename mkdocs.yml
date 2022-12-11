@@ -1,4 +1,4 @@
-site_name: Muntii-Fagarasのドキュメント
+﻿site_name: Muntii-Fagarasのドキュメント
 site_description: Muntii-Fagarasのドキュメントリポジトリです。
 site_author: Muntii-Fagarasチーム
 site_url: https://Muntii-Fagaras.github.io/
@@ -21,6 +21,12 @@ theme:
     - codehilite
     - navigation.expand
     - navigation.instant
+    - navigation.tracking
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
   icon:
     repo: fontawesome/brands/github 
 markdown_extensions:
@@ -33,8 +39,34 @@ markdown_extensions:
       
 nav:
   - このプロジェクトについて: README.md
+  - このプロジェクトのビルド方法について: CONTRIBUTING.md
+  - 1. インストール方法:
+      - 1.1. WindowsでMuntii-Fagarasを実行する方法: instruction/how_to_run/main.md
+      - 1.2. KubuntuでMuntii-Fagarasを実行する方法: instruction/how_to_run/kubuntu.md
+      - 1.3. React OSでMuntii-Fagarasを実行する方法: instruction/how_to_run/reactos.md
+  - 2. プログラムの使い方:
+      - 2.1. メイン画面の操作方法 : instruction/manual/main.md
+      - 2.2. 設定画面の操作方法:  instruction/manual/setting.md
+  - 3. ソースコードについて:
+      - 3.1. imageについて: description/image.md
+      - 3.2. load_fileについて: description/load_file.md
   - このサイトについて: このサイトについて.md
 plugins:
   - git-revision-date
   - git-authors
-  
+  - tags
+  - search:
+      lang: ja
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      auto_title: true
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  version:
+    provider: mike
