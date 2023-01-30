@@ -50,7 +50,10 @@ plugins:
   - with-pdf:
      cover: true
      toc_level: 3
-     cover_title: Muntii-Fagaras取扱説明書
+     cover_title: Muntii-Fagaras
+     toc_title: 目次
+     author: Muntii-Fagarasチーム
+     cover_subtitle: 取扱説明書
   - search:
       lang: ja
 markdown_extensions:
