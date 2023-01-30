@@ -55,6 +55,10 @@ plugins:
   - git-revision-date
   - git-authors
   - tags
+  - with-pdf:
+     cover: true
+     toc_level: 3
+     cover_title: Muntii-Fagaras取扱説明書
   - search:
       lang: ja
 markdown_extensions:
