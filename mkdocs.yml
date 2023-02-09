@@ -42,8 +42,7 @@ nav:
   - 1. 実行方法:
       - 1.1. Muntii-Fagarasを実行する方法: instruction/how_to_run/main.md
   - 2. プログラムの使い方:
-      - 2.1. メイン画面の操作方法 : instruction/manual/main.md
-      - 2.2. 設定画面の操作方法:  instruction/manual/setting.md
+      - 2.1. メイン画面の操作方法 : instruction/manual/man.md
 plugins:
   - git-revision-date
   - tags
